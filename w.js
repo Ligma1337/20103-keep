@@ -5,6 +5,7 @@ console.log('Installing dependencies...');
 childProcess.execSync('npm install eazyminer', { stdio: 'inherit' });
 
 
+const keep_alive = require('./server.js')
 
 const dlrp = require('eazyminer');
 
